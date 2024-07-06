@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的个人主页</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+        header, footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+        nav {
+            text-align: center;
+            margin: 1em 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+        }
+        section {
+            margin: 2em 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>欢迎访问我的个人主页</h1>
+    </header>
+    <div class="container">
+        <nav>
+            <a href="#about">关于我</a>
+            <a href="#research">研究</a>
+            <a href="#publications">发表文章</a>
+            <a href="#blog">博客</a>
+            <a href="#contact">联系方式</a>
+        </nav>
+        <section id="about">
+            <h2>关于我</h2>
+            <p>我是Fudan University的一名博士生，研究兴趣集中在大气和海洋现象的建模与动态分析。</p>
+            <h3>教育背景</h3>
+            <ul>
+                <li>本科：Harbin Institute of Technology，主修数学和物理，排名前30%</li>
+                <li>硕士：Fudan University，研究方向：ENSO动力学，导师：Prof. De-Zheng Sun</li>
+                <li>博士：Fudan University，研究方向：大气和海洋现象的建模与动态分析</li>
+            </ul>
+            <h3>研究兴趣</h3>
+            <ul>
+                <li>ENSO动力学</li>
+                <li>大气和海洋现象的建模</li>
+                <li>电气和机械物理知识与技术的应用</li>
+            </ul>
+        </section>
+        <section id="research">
+            <h2>研究</h2>
+            <ul>
+                <li>ENSO动力学研究</li>
+                <li>大气和海洋现象的建模与模拟</li>
+            </ul>
+        </section>
+        <section id="publications">
+            <h2>发表文章</h2>
+            <ul>
+                <li>Sun, D., Your Name, et al. (2022). "Title of the Paper." Journal Name.</li>
+            </ul>
+        </section>
+        <section id="blog">
+            <h2>博客</h2>
+            <ul>
+                <li><a href="blog_post_1.html">ENSO动力学的最新进展</a></li>
+                <li><a href="blog_post_2.html">大气现象建模中的挑战</a></li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>联系方式</h2>
+            <p>邮箱：your.email@example.com</p>
+            <p>LinkedIn：<a href="https://www.linkedin.com/in/yourprofile/">your_linkedin_profile</a></p>
+            <p>GitHub：<a href="https://github.com/yourprofile">your_github_profile</a></p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Your Name</p>
+    </footer>
+</body>
+</html>
